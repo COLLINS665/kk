@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top right, rgba(42, 240, 230, 0.5),rgba(149, 106, 228, 0.7));
+}
+#time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#hour,#min,#sec{
+    height: 4em;
+    width: 4em;
+    border: 6px solid rgb(10, 121, 136);
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    border-radius: 20px;
+}
